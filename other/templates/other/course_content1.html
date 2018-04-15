@@ -1,0 +1,46 @@
+<html>
+{% load staticfiles %}
+<head>
+
+    <title> {{course_content.pdf_title}} </title>
+    <link rel="stylesheet" type="text/css" href="{% static 'course_content/style.css' %}">
+{% block head %}
+
+{% endblock %}
+
+</head>
+
+<body>
+{% block body %} 
+
+    <div class="courses_details">
+			<div class="main">
+			<div class="courses_details_background">
+{#			<h1>Course code : {{ course_details.course_code }}</h1>#}
+{#			<h1>Course title : {{ course_details.course_title }}</h1>#}
+{#			<h1>Credit Hours: {{ course_details.credit_hours }}</h1>#}
+                <h1>Course code : CSE-3507</h1>
+			<h1>Course title : Internet Technologies and Web Programming by Ahmed Imteaj</h1>
+			<h1>Credit Hours: 03</h1>
+                <h1>PDF: Content</h1>
+                <a href="http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwiZ7aeg-pnLAhWDTY4KHeZYCyYQFggcMAA&url=http%3A%2F%2Fwww.tutorialspoint.com%2Fhtml%2Fhtml_tutorial.pdf&usg=AFQjCNHWbsXEXKva1PusCgv8hGqqizZR_g&sig2=_Wz9tdSmV-qtg9Z2Ek7O1A">1. HTML PDF Guide</a>
+                <h2 style="color: #F96E5B">Exam Link</h2>
+                <a href="https://www.onlineexambuilder.com/internet-technology/exam-62553">Mid Term Exam</a><br><br>
+                <a href="https://www.onlineexambuilder.com/programming-in-c/exam-62230">Final Exam</a>
+
+
+                <h1 style="text-align:center">Course Video</h1>
+
+				<h1>Video content:</h1>
+                <p><iframe width="560" height="315" src="https://www.youtube.com/embed/9gTw2EDkaDQ" frameborder="0" allowfullscreen></iframe></p>
+                <p><iframe width="560" height="315" src="https://www.youtube.com/embed/y3UH2gAhwPI" frameborder="0" allowfullscreen></iframe></p>
+                <p><iframe width="560" height="315" src="https://www.youtube.com/embed/PVfJnltHIM4" frameborder="0" allowfullscreen></iframe></p>
+                <p><iframe width="560" height="315" src="https://www.youtube.com/embed/I-rTKuEhrCM" frameborder="0" allowfullscreen></iframe></p>
+
+
+				</div>
+			</div>
+			</div>
+{% endblock %}
+</body>
+</html>

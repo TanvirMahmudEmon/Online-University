@@ -1,0 +1,44 @@
+	
+	.profile{
+		
+	
+	}
+	.notice_board{
+		height:780px;
+		color:white;
+		margin:10px;
+	}
+	
+	.mid{
+		height:315px;
+		width:960px;
+	}
+	.profile_menu{
+		height:315px;
+		width:140px;
+		background-color:black;
+		border:1px solid white;
+		color:white;
+		padding:0 5px 0 5px;
+		float:left;
+	}
+	a:visited{
+		color:white;
+	}
+	.our_task{
+		height:303px;
+		width:788px;
+		border:1px solid white;
+		border-radius:5px;
+		background-color:black;
+		padding:5px;
+		float:left;
+		color:white;
+	
+	}
+	.cb{
+		clear:both;
+	}
+	ul li{
+		list-style:none;
+	}
