@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+{% load staticfiles %}
+<head>
+
+    <title> {{course_content.pdf_title}} </title>
+    <link rel="stylesheet" type="text/css" href="{% static 'course_content/style.css' %}">
+{% block head %}
+
+{% endblock %}
+
+</head>
+
+<body>
+{% block body %} 
+
+    <div class="courses_details">
+			<div class="main">
+			<div class="courses_details_background">
+{#			<h1>Course code : {{ course_details.course_code }}</h1>#}
+{#			<h1>Course title : {{ course_details.course_title }}</h1>#}
+{#			<h1>Credit Hours: {{ course_details.credit_hours }}</h1>#}
+			<h1>PDF: {{ course_content.pdf_title }}</h1>
+            <h2 style="text-align:center">PDF Content:</h2>
+			<p>{{course_content.pdf}}</p>
+
+                <h1 style="text-align:center">Course Video</h1>
+                <p>{{ course_content.video_title }}</p>
+
+				<h1>Video content:</h1>
+				<p>{{ course_content.video|safe }}</p>
+
+				</div>
+			</div>
+			</div>
+{% endblock %}
+</body>
+</html>
