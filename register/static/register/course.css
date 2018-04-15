@@ -1,0 +1,89 @@
+   body{
+                        font-family: 'Open Sans', sans-serif;
+        }
+		.course{
+			height:690px;
+			margin:5px;
+		}
+
+        .info a{
+            color: #bbb;
+        }
+		
+        .menu{
+            border:1px solid #ccc;
+            height:195px;
+            width:303px;
+            position: relative;
+            margin-right: 15px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            float: left;
+        }
+
+        .image1{
+            background-image: url("images/internet%20web.jpg");
+        }
+        .image2{
+            background-image: url("images/software%20engineering.jpg");
+        }
+        .image3{
+            background-image: url("images/object oriented programming 1.jpg");
+        }
+
+        .image4{
+            background-image: url("images/computer%20algorithm.jpg");
+        }
+        .image5{
+            background-image: url("images/database%20system.jpg");
+        }
+        .image6{
+            background-image: url("images/object%20oriented%20programming%201.jpg");
+        }
+
+        .menu .image{
+            background-size: cover;
+            width:80px;
+            height:80px;
+            border-radius:40px;
+            margin-top: 35px;
+            float:left;
+            margin-right: 10px;
+            margin-left:10px;
+            -webkit-transition: all 0.4s;
+            -moz-transition: all 0.4s;
+            -ms-transition: all 0.4s;
+            -o-transition: all 0.4s;
+            transition: all 0.4s;
+            z-index: -1;
+        }
+
+        .menu .text{
+            font-size: 20px;
+            float:left;
+            top: 60px;
+            left:120px;
+            position: absolute;
+
+            -webkit-transition: all 0.4s;
+            -moz-transition: all 0.4s;
+            -ms-transition: all 0.4s;
+            -o-transition: all 0.4s;
+            transition: all 0.4s;
+        }
+
+        .menu:hover .image{
+            position: absolute;
+            top:0px;
+            left:0px;
+            width: 303px;
+            height: 195px;
+            border-radius: 0px;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+
+        .menu:hover .text{
+            left:20px;
+            color: #F96E5B;
+        }
