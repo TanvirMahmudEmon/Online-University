@@ -1,0 +1,382 @@
+	.base{
+		background:url("images/footer_lodyas.png") repeat;
+	}
+	
+/*Logo Section Start*/	
+	
+	.header{
+		height:80px;
+	}
+	.main{
+		margin:0 auto;
+		width:960px;
+	}
+	.logo_section{
+		height:80px;
+		width:810px;
+		float:left;
+	
+	}
+	a{
+		text-decoration:none;
+	
+	}
+	.login_section{
+		height:80px;
+		width:150px;
+		float:left;
+		text-align:center;
+	}
+	.cb{
+		clear:both;
+	}
+	.in_login_section{
+		margin:20px;
+		height:35px;
+		width:100px;
+		border-radius:5px;
+		border:1px solid black;
+		background-color: #F1BD42;
+	}
+
+	/*Logo Section End*/
+	
+	
+	/*Manubar Section start*/
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+	#cssmenu {
+	  background: #f96e5b;
+	  width: auto;
+	}
+	#cssmenu ul {
+	  list-style: none;
+	  margin: 0;
+	  padding: 0;
+	  line-height: 1;
+	  display: block;
+	  zoom: 1;
+	}
+	#cssmenu ul:after {
+	  content: " ";
+	  display: block;
+	  font-size: 0;
+	  height: 0;
+	  clear: both;
+	  visibility: hidden;
+	}
+	#cssmenu ul li {
+	  display: inline-block;
+	  padding: 0;
+	  margin: 0;
+	}
+	#cssmenu.align-right ul li {
+	  float: right;
+	}
+	#cssmenu.align-center ul {
+	  text-align: center;
+	}
+	#cssmenu ul li a {
+	  color: #ffffff;
+	  text-decoration: none;
+	  display: block;
+	  padding: 15px 25px;
+	  font-family: 'Open Sans', sans-serif;
+	  font-weight: 700;
+	  text-transform: uppercase;
+	  font-size: 14px;
+	  position: relative;
+	  -webkit-transition: color .25s;
+	  -moz-transition: color .25s;
+	  -ms-transition: color .25s;
+	  -o-transition: color .25s;
+	  transition: color .25s;
+	}
+	#cssmenu ul li a:hover {
+	  color: #333333;
+	}
+	#cssmenu ul li a:hover:before {
+	  width: 100%;
+	}
+	#cssmenu ul li a:after {
+	  content: "";
+	  display: block;
+	  position: absolute;
+	  right: -3px;
+	  top: 19px;
+	  height: 6px;
+	  width: 6px;
+	  background: #ffffff;
+	  opacity: .5;
+	}
+	#cssmenu ul li a:before {
+	  content: "";
+	  display: block;
+	  position: absolute;
+	  left: 0;
+	  bottom: 0;
+	  height: 3px;
+	  width: 0;
+	  background: #333333;
+	  -webkit-transition: width .25s;
+	  -moz-transition: width .25s;
+	  -ms-transition: width .25s;
+	  -o-transition: width .25s;
+	  transition: width .25s;
+	}
+	#cssmenu ul li.last > a:after,
+	#cssmenu ul li:last-child > a:after {
+	  display: none;
+	}
+	#cssmenu ul li.active a {
+	  color: #333333;
+	}
+	#cssmenu ul li.active a:before {
+	  width: 100%;
+	}
+	#cssmenu.align-right li.last > a:after,
+	#cssmenu.align-right li:last-child > a:after {
+	  display: block;
+	}
+	#cssmenu.align-right li:first-child a:after {
+	  display: none;
+	}
+	@media screen and (max-width: 768px) {
+	  #cssmenu ul li {
+		float: none;
+		display: block;
+	  }
+	  #cssmenu ul li a {
+		width: 100%;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		border-bottom: 1px solid #fb998c;
+	  }
+	  #cssmenu ul li.last > a,
+	  #cssmenu ul li:last-child > a {
+		border: 0;
+	  }
+	  #cssmenu ul li a:after {
+		display: none;
+	  }
+	  #cssmenu ul li a:before {
+		display: none;
+	  }
+	}
+	/*Manubar section end*/
+	
+	
+	/*Slide img section start */
+	.slideing_img{
+		 height:350px;  	
+	}
+	/*Slide img section end */
+	
+	
+	
+	/*Courses Section start*/
+		/*General Style*/
+	.main{
+		width:960px;
+		margin:0 auto;
+	}
+	.clear-fix{
+		clear:both;
+	}
+	
+	/*4th part*/
+	/*course area*/
+	.course_area{
+		height:110px;
+		
+	
+	}
+	.course_area1{
+		background-color:#F96E5B;
+		height:40px;
+		width:120px;
+		margin:29px 10px 20px 0;
+		float:left;
+		position:relative;
+		border-radius:5px;
+		
+	}
+	
+	.h3_section{
+		position:absolute;
+		cursor:pointer;
+		left:10px;
+		bottom:-8px;
+	}
+	/*5th part*/
+	/*slider area*/
+	.slider_area{
+		
+	}
+	.same_slider_area{
+		width:214px;
+		height:200px;
+		float:left;
+		margin:10px;
+		border:3px solid red;
+	}
+	.slider_area_left{
+		background-color:#40E0D0;
+	}
+	.slider_area_left_top{
+		background-color:#008080;
+		height:100px;
+	}
+	.slider_area_left_bottom{
+		background-color:#87CEEB;
+		height:100px;
+	}
+	.slider_area_first_middle{
+		background-color:#F4A460;
+	}
+	.slider_area_second_middle{
+		background-color:#FF0000;;
+	}
+	.slider_area_left{
+		background-color:#DDA0DD;
+	}
+	
+	
+	
+	
+	/*footer_top  or  9th area*/
+	
+	.footer_top{
+		height:250px;
+	}
+	.footer_top_same{
+		width:430px;
+		
+	}
+	.footer_top_left{
+		float:left;
+		width:430px;
+		height:200px;
+		margin:10px;
+		padding:15px;
+		color:white;
+	}
+	
+	
+	.footer_top_left ul{
+		list-style:none;
+		margin:0;
+		padding:0;
+	}
+	
+	.list_class{   /*for text color*/
+		color:white;
+	}
+	
+	
+	.footer_top_left  a:link{
+		text-decoration:none;
+	}
+	.footer_top_left  a:hover{
+		color:#FF0000;
+		text-decoration:none;
+	}
+	.footer_top_left  a:active{
+		color:#00FF00;
+		text-decoration:none;
+	}
+	
+	
+	
+	.footer_top_right{
+		float:left;
+		width:430px;
+		height:200px;
+		margin:10px;
+		padding:15px;
+		color:white;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*Courses Section End*/
+	
+	/*Semester Section start*/
+	
+	.Semester_Section{
+		height:450px;
+	
+	}
+	.semester{
+		height:166px;
+		width:206px;
+		margin:10px;
+		padding:5px;
+		border:2px solid white;
+		background-color:black;
+		float:left;
+		color:white;
+		border-radius:5px;
+	}
+	.icon{
+		text-align:center;
+		height:100px;
+		width:206px;
+		
+	}
+	.number{
+		text-align:center;
+		height:66px;
+		width:206px;
+	}
+	
+	
+	/*Semester Section end*/
+	
+	/*Footer section start*/
+	.footer{
+		height:50px;
+	}
+	.footer_left{
+		height:40px;
+		width:470px;
+		color:white;
+		padding:5px;
+		float:left;
+		font-size:12px;
+		
+	}
+	.footer_right{
+		height:30px;
+		width:460px;
+		float:left;
+		color:white;
+		text-align:right;
+		padding:10px;
+		font-size:12px;
+		
+	}
+	
+	
+	
+	
+	/*Footer section end*/
