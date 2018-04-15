@@ -1,0 +1,18 @@
+h1 {
+    color: darkblue;
+}
+
+body {
+    background: white url("images/background.gif") no-repeat right bottom;
+}
+
+
+.courses_details_background{
+    /*background-image:url(Capture.PNG) repeat;*/
+    border:3px solid #9DD063;
+    padding:40px;
+}
+
+.bootstrap_style{
+    text-align: center;
+}
